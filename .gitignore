@@ -1,0 +1,43 @@
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Virtual envs
+venv/
+venv311/
+.venv/
+env/
+
+# Data files (large, regenerable, or already on disk)
+IMDB Dataset.csv
+glove.6B.100d.txt
+*.csv
+*.tsv
+*.parquet
+*.zip
+*.gz
+
+# Pretrained embeddings (large)
+glove.*.txt
+numberbatch*.txt
+*.vec
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
